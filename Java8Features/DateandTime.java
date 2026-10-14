@@ -17,10 +17,12 @@ public class DateandTime {
 
         LocalTime t1=LocalTime.now(ZoneId.of("America/Cuiaba"));
         System.out.println(t1);
-        for(String s:ZoneId.getAvailableZoneIds()){
-            System.out.println(s);
-
-        }
+        LocalTime t2=LocalTime.now(ZoneId.of("Europe/Tiraspol"));
+        System.out.println(t2);
+//        for(String s:ZoneId.getAvailableZoneIds()){
+//            System.out.println(s);
+//
+//        }
 
 
     }
